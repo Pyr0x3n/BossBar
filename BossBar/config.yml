@@ -1,0 +1,28 @@
+# The messages to be dispalyed above the bossbar.
+# No amount limit, just use dash "-" before each new messages. Maximum leng 64 chararcters.
+messages:
+  - '&bThis is your first &amessage!'
+  - '&aTo buy kits, check the the webstore'
+  - '&aThis message number 3'
+  - '&aAn other message'
+  - '&aWell well, more messages'
+  
+# Interval between messages.
+interval: 5
+
+# Do you want a motd displayed above the bossbar.
+motd: true
+
+# This is the motd message. You can use the variable %player%.
+motdMessage: '&eGlad to see you again, %player%'
+
+# Which event will stopp the messages. Only 1 can be true....But all could false.
+# If 2 or more are true, the earliest event will overide the latest.
+gameStartEvent: false
+invincibilityWearOffEvent: true
+feastSpawnedEvent: false
+feastAnnouncedEvent: false
+playerWinEvent: false  #why would you turn that to true? really....
+
+# Are later joiners aible to see the messages
+spectatorsSeeMessages: true
